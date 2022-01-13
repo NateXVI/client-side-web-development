@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>CS2350</title>
+		<style>
+			* {
+				padding: 0;
+				margin: 0;
+			}
+			body {
+				font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+					Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+				box-sizing: border-box;
+				font-size: 18px;
+				max-width: 800px;
+				min-height: 100vh;
+				margin: auto;
+				display: flex;
+				flex-direction: column;
+				justify-content: space-between;
+			}
+			main,
+			footer {
+				padding: 1em;
+			}
+			h1,
+			h2 {
+				margin-bottom: 0.5em;
+			}
+			section {
+				margin: 3em 0;
+			}
+			p {
+				margin-bottom: 0;
+				line-height: 2;
+			}
+			hr {
+				margin: 1em 0;
+			}
+			#footnotes {
+				font-size: 0.8em;
+			}
+
+			@media only screen and (max-width: 700px) {
+				body {
+					font-size: 16px;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<main>
+			<header>
+				<h1>CS2350: Client-side Web Development</h1>
+			</header>
+			<section id="HTML5">
+				<h2>HTML5</h2>
+				<p>
+					HTML5 is a markup language used for structuring and presenting content on the
+					World Wide Web.
+					<a href="#footnote1">[1]</a>
+				</p>
+				<hr />
+			</section>
+			<section id="CSS3">
+				<h2>CSS3</h2>
+				<p>
+					Cascading Style Sheets (CSS) is a style sheet language used for describing the
+					presentation of a document written in a markup language such as HTML.
+					<a href="#footnote2">[2]</a>
+				</p>
+				<hr />
+			</section>
+			<section id="JavaScript">
+				<h2>JavaScript</h2>
+				<p>
+					JavaScript, often abbreviated JS, is a programming language that is one of the
+					core technologies of the World Wide Web, alongside HTML and CSS.
+					<a href="#footnote3">[3]</a>
+				</p>
+				<hr />
+			</section>
+		</main>
+		<footer id="footnotes">
+			<p id="footnote1">
+				[1] Source:
+				<a href="https://en.wikipedia.org/wiki/HTML5" target="_blank"
+					>HTML5 Wikipedia Page</a
+				>
+			</p>
+			<p id="footnote2">
+				[2] Source:
+				<a href="https://en.wikipedia.org/wiki/CSS" target="_blank">CSS Wikipedia Page</a>
+			</p>
+			<p id="footnote3">
+				[3] Source:
+				<a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank"
+					>JavaScript Wikipedia Page</a
+				>
+			</p>
+		</footer>
+	</body>
+</html>
