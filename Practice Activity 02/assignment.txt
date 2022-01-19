@@ -1,0 +1,22 @@
+A weblog or simply a blog is a web site for an informal diary or journal where people (called bloggers) write about their opinions, thoughts, and/or experiences. An article in a blog is called a blog post. 
+
+Design a template HTML page for a typical blog post with the following components at a minimum:
+
+Title
+Author
+Publication date
+An image (Link to an open source image from https://unsplash.com (Links to an external site.))
+Multiple sections each with a heading and multiple paragraphs. Use Lorem Ipsum (Links to an external site.) to generate dummy text for your post.
+The page must also:
+
+include a robots and a description meta tags
+contain clean well-indented HTML
+make use of the following HTML elements:
+Semantic elements such as header, nav, main, aside, footer, article, section
+Different levels of headings (h1, h2, ...)
+Paragraphs.
+At least three lists: one for each type (unordered, ordered, and definition lists)
+Line breaks and horizontal rules
+use multiple colors
+have all the CSS rules inside a <style></style> element under the document <head></head>
+Validate your page at https://validator.w3.org/#validate_by_upload (Links to an external site.) and make sure it contains no warnings or errors. Submit your HTML file via Canvas.
