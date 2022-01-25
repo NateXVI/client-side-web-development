@@ -54,10 +54,14 @@ dl.intro-card > dd {
 
 dd.favorite-colors {
 	display: flex;
+	width: 100%;
+	height: 0.9em;
 	justify-content: space-evenly;
-	border-radius: 8px;
-	border: 2px solid black;
+	border-radius: 5px;
+	/* border: 2px solid black; */
+	box-shadow: 0 0 0 2px black;
 	background-color: black;
+	border: none !important;
 }
 
 dd.favorite-colors > div {
@@ -66,7 +70,7 @@ dd.favorite-colors > div {
 }
 
 dd.favorite-colors > div:first-child {
-	border-radius: 6px 0 0 6px;
+	border-radius: 5px 0 0 5px;
 }
 
 svg.slant {
