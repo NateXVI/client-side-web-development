@@ -1,0 +1,85 @@
+.intro {
+	color: black;
+	width: 100%;
+	padding: 1rem;
+	background-color: #151515;
+}
+
+div.intro-card {
+	max-width: 40rem;
+	margin: 4rem auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: white;
+	padding: 1rem;
+	border-radius: 20px;
+
+	box-shadow: -4px 4px 0px 4px #bbb;
+	border: 3px solid #bbb;
+}
+
+img.intro-card {
+	width: 7rem;
+	height: 7rem;
+	object-fit: cover;
+	border-radius: 50%;
+	border: 1px solid white;
+	box-shadow: 0 0 0 4px black;
+}
+
+dl.intro-card {
+	width: 100%;
+	max-width: 20rem;
+	display: grid;
+	align-content: center;
+	justify-content: end;
+	gap: 0 1rem;
+	grid-template-columns: auto auto;
+}
+
+dl.intro-card > dt {
+	text-align: end;
+	color: #555;
+}
+
+dl.intro-card > dd {
+	text-decoration: underline;
+}
+
+dd.favorite-colors {
+	display: flex;
+	justify-content: space-evenly;
+	border-radius: 8px;
+	border: 2px solid black;
+}
+
+dd.favorite-colors > div {
+	height: 100%;
+	width: 100%;
+}
+
+dd.favorite-colors > div:first-child {
+	border-radius: 8px 0 0 8px;
+}
+
+svg.slant {
+	width: 100%;
+	height: 15vw;
+}
+
+svg.slant > polygon {
+	fill: #151515;
+}
+
+@media screen and (min-width: 800px) {
+	div.intro-card {
+		max-width: 60rem;
+		font-size: 1.25rem;
+		padding: 3rem;
+	}
+	img.intro-card {
+		width: 14rem;
+		height: 14rem;
+	}
+}
