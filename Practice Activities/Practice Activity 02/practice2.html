@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="zxx">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="robots" content="all" />
+		<meta name="description" content="Kevin James blog post" />
+		<title>Blog.com - Kevin James</title>
+		<style>
+			* {
+				padding: 0;
+				margin: 0;
+				box-sizing: border-box;
+				font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+					Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+			}
+			body {
+				min-height: 100vh;
+				flex-direction: column;
+				display: flex;
+				justify-content: space-between;
+			}
+			a {
+				text-decoration: none;
+			}
+			nav {
+				border-bottom: 2px solid #ddd;
+			}
+			nav > div {
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: space-between;
+				align-items: center;
+				max-width: 60rem;
+				padding: 1rem;
+				margin: auto;
+			}
+			nav > div > a {
+				color: #333;
+				font-size: 1.25rem;
+				text-decoration: none;
+			}
+			nav > div > ul {
+				display: flex;
+				align-self: center;
+			}
+			.nav-link {
+				padding: 1rem;
+				list-style-type: none;
+			}
+			.nav-link > a {
+				text-decoration: none;
+			}
+			main {
+				max-width: 60rem;
+				margin: auto;
+			}
+			header {
+				display: flex;
+				justify-content: space-between;
+				align-items: flex-end;
+				padding: 1rem;
+				border-bottom: 1px solid #333;
+			}
+			.user-info {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+			}
+			.user-info > img {
+				width: 100px;
+				height: 100px;
+				border-radius: 50%;
+				object-fit: cover;
+			}
+			article {
+				width: 100%;
+				height: max-content;
+				background-color: #f1f1f1;
+				font-size: 1.3rem;
+				padding: 1rem;
+			}
+			article > *,
+			article > section > * {
+				margin-bottom: 1rem;
+				color: #111;
+			}
+			article > p,
+			article > section > p {
+				color: #222;
+				text-indent: 4rem;
+			}
+			article > img,
+			article > section > img {
+				width: 100%;
+				height: auto;
+				max-height: 30rem;
+				object-fit: cover;
+			}
+			dd,
+			article > section > dl,
+			article > section > ol,
+			article > section > ul {
+				margin-left: 2rem;
+			}
+			dt {
+				font-weight: bolder;
+			}
+			footer {
+				margin-top: 1rem;
+				padding: 1rem;
+				background: #ddd;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				gap: 0.6rem;
+			}
+		</style>
+	</head>
+	<body>
+		<div>
+			<nav>
+				<div>
+					<a href="#">
+						<h1>Blog.com</h1>
+					</a>
+					<ul>
+						<li class="nav-link">
+							<a href="#">Option 1</a>
+						</li>
+						<li class="nav-link">
+							<a href="#">Option 2</a>
+						</li>
+						<li class="nav-link">
+							<a href="#">Option 3</a>
+						</li>
+						<li class="nav-link">
+							<a href="#">Option 4</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+			<main>
+				<header>
+					<div class="user-info">
+						<img
+							src="https://images.unsplash.com/photo-1521572267360-ee0c2909d518?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+							alt="profile picture"
+						/>
+						<div>
+							<h2>Kevin James</h2>
+							<p>
+								<a href="#">@kevinjames</a>
+							</p>
+						</div>
+					</div>
+					<div>Published: May 19, 2020</div>
+				</header>
+				<article>
+					<h2>Article Title</h2>
+					<hr />
+					<section>
+						<h3>Lorem ipsum dolor</h3>
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Est officia rem
+							repellat non voluptates atque quia! Obcaecati praesentium inventore dolorum,
+							quas modi illum repudiandae consequuntur voluptas ratione aliquam fuga
+							velit.
+						</p>
+						<p>
+							Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit nisi delectus
+							consequatur harum rem nostrum atque tempore odio voluptate non ex aliquid
+							excepturi dicta libero, consequuntur quaerat quod iste voluptatum nemo cum
+							nesciunt! Officiis reiciendis voluptas blanditiis fugiat, perspiciatis illum
+							voluptates recusandae nostrum iste ex corporis dicta, suscipit porro quidem
+							quo rerum nulla, cumque in dignissimos architecto magni numquam eius.
+							Suscipit omnis nulla, alias quidem iure repellat autem maxime eos, dolorem
+							ad nesciunt asperiores harum assumenda ipsa, fuga blanditiis. Autem
+							mollitia, natus voluptate laudantium suscipit vitae corporis iure quasi ab
+							perspiciatis, eveniet inventore, doloribus sint.
+						</p>
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero aspernatur
+							impedit quas autem dolor rem laboriosam! Temporibus similique dolorem nisi
+							nihil adipisci incidunt nam quaerat quibusdam architecto, porro voluptas
+							omnis voluptatum corrupti atque tempore quisquam? Harum assumenda corrupti
+							ut, sit architecto ipsam cumque, accusamus aspernatur exercitationem labore,
+							laboriosam repudiandae.
+						</p>
+						<img
+							src="https://images.unsplash.com/photo-1642887896814-0818d2d2ee2a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1075&q=80"
+							alt="van driving offroad in rocky desert terrain"
+						/>
+					</section>
+					<hr />
+					<section>
+						<h3>Lorem ipsum dolor sit amet</h3>
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure eum temporibus
+							aliquam? Reprehenderit, cumque!
+						</p>
+						<ol>
+							<li>hello</li>
+							<li>hello</li>
+							<li>hello</li>
+							<li>hello</li>
+						</ol>
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum ipsa
+							blanditiis voluptate cumque vero accusamus molestiae sed ipsam, qui dolor,
+							mollitia voluptates quis. Animi vero explicabo saepe ab, quas nisi!
+						</p>
+						<img
+							src="https://images.unsplash.com/photo-1642887896820-6772b583a94f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1075&q=80"
+							alt="rocky terrain with snowy mountains in the background"
+						/>
+					</section>
+					<hr />
+					<section>
+						<h3>Fuga placeat quas facere inventore!</h3>
+						<dl>
+							<dt>Libero voluptates, quam eligendi!</dt>
+							<dd>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit
+								labore repellendus quas similique veniam quia, pariatur laudantium. Odit,
+								maxime quia, facere vero sit, beatae ipsa cumque molestias iusto minima
+								quaerat.
+							</dd>
+							<dt>Libero voluptates, quam eligendi!</dt>
+							<dd>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit
+								labore repellendus quas similique veniam quia, pariatur laudantium. Odit,
+								maxime quia, facere vero sit, beatae ipsa cumque molestias iusto minima
+								quaerat.
+							</dd>
+							<dt>Libero voluptates, quam eligendi!</dt>
+							<dd>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit
+								labore repellendus quas similique veniam quia, pariatur laudantium. Odit,
+								maxime quia, facere vero sit, beatae ipsa cumque molestias iusto minima
+								quaerat.
+							</dd>
+						</dl>
+						<p>
+							Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime rem aliquid
+							autem mollitia quos neque a eligendi perferendis, maiores, quis expedita
+							suscipit dignissimos dolore impedit tempore. Assumenda, reprehenderit.
+							Sapiente, perspiciatis?
+						</p>
+						<p>
+							Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime rem aliquid
+							autem mollitia quos neque a eligendi perferendis, maiores, quis expedita
+							suscipit dignissimos dolore impedit tempore. Assumenda, reprehenderit.
+							Sapiente, perspiciatis?
+						</p>
+						<img
+							src="https://images.unsplash.com/photo-1642866737498-23bccd3b4621?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+							alt="lake with two small islands that ahve yellow trees and there's a mountain with a forrest in the background"
+						/>
+					</section>
+				</article>
+			</main>
+		</div>
+		<footer>
+			<p>©Blog.com 2020</p>
+			<a href="#">Privacy Policy</a>
+			<a href="#">Terms of Service</a>
+			<a href="#">About</a>
+		</footer>
+	</body>
+</html>
