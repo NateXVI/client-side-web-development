@@ -2,6 +2,7 @@ section.projects {
 	color: black;
 	background-color: #fff;
 	padding: 3rem;
+	overflow: hidden;
 }
 
 div.projects-container {

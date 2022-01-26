@@ -45,8 +45,8 @@ body > header > div {
 	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: center;
-	font-size: 1rem;
-	padding: 1rem;
+	font-size: 1em;
+	padding: 1em;
 	margin: 0 auto;
 	max-width: 80rem;
 	background-color: #495bd0;
@@ -54,7 +54,7 @@ body > header > div {
 
 .nav-links {
 	display: flex;
-	gap: 2rem;
+	gap: 2em;
 }
 
 .nav-links > a {
@@ -76,4 +76,10 @@ footer {
 	width: 100%;
 	padding: 2rem;
 	background-color: #495bd0;
+}
+
+@media screen and (min-width: 800px) {
+	body > header {
+		font-size: 1.25rem;
+	}
 }
