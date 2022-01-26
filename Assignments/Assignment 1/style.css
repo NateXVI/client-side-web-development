@@ -4,10 +4,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 /* font-family: 'Kanit', sans-serif; */
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-/* font-family: 'Shadows Into Light', cursive; */
-@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
-/* font-family: 'Architects Daughter', cursive; */
-@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
 /* font-family: 'Permanent Marker', cursive; */
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
@@ -72,7 +68,7 @@ body > header > div {
 .nav-links > a:hover,
 .nav-links > a:focus {
 	background-color: white;
-	color: black;
+	color: #495bd0;
 	transform: scale(1.1);
 }
 

@@ -13,4 +13,5 @@
 - [x] At least one image
 - [ ] Line breaks and horizontal rules
 - [x] No lorem ipsum
+- [ ] Make navbar responsive
 - [ ] Host on school icarus server
