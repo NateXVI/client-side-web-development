@@ -1,75 +1,51 @@
 section.projects {
-	background-color: white;
-	padding-top: 1rem;
-	overflow: hidden;
-}
-
-div.projects {
-	/* background-color: #00ff65; */
 	color: black;
-	margin: 0 auto;
-	min-height: 50vh;
+	background-color: #fff;
+	padding: 3rem;
 }
 
-h2.projects {
-	text-align: center;
+div.projects-container {
+	margin: 0 auto;
+	max-width: 50rem;
+}
+
+header.projects {
 	font-size: 2rem;
-}
-
-div.project-cards {
-	padding: 5rem 1rem;
-	max-width: 20rem;
-	margin: 0 auto;
-
-	display: flex;
-	flex-direction: column;
-	gap: 3rem;
+	text-align: center;
+	margin-bottom: 2rem;
 }
 
 div.project-card {
-	background: yellow;
-	height: 100%;
+	padding: 2em;
 	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	padding: 1rem;
+	width: 100%;
+	gap: 2rem;
+	align-items: flex-end;
+	margin-bottom: 1.5rem;
 	background-color: white;
+	/* border: 2px solid black; */
 	border-radius: 20px;
-	box-shadow: -7px 4px 0px 4px #33333388;
-	border: 2px solid black;
+	box-shadow: 0 0 0 0 #999, 0 0 0 0 black;
 
-	--transition-time: 0.25s;
-	transition: transform var(--transition-time), box-shadow var(--transition-time);
+	--transition-time: 0.7s;
+	transition: transform var(--transition-time), box-shadow var(--transition-time),
+		border var(--transition-time);
 }
 
 div.project-card:hover {
-	transform: scale(1.1);
-	box-shadow: -15px 10px 7px 4px #33333388;
-}
-
-p.click-me {
-	font-weight: bold;
-	text-align: center;
-	margin: 0 0 0.75rem 0;
+	/* transform: scale(1.05) translateY(-0.75rem); */
+	transform: scale(1.01);
+	box-shadow: 0 0 0 2px #aaa, 0 15px 5px 0px #555;
 }
 
 img.project-card {
-	width: 100%;
-	height: auto;
-	object-fit: cover;
+	max-width: 20vw;
+	min-width: 5em;
+	width: 10rem;
+	align-self: center;
 }
 
-@media screen and (min-width: 800px) {
-	div.project-cards {
-		display: grid;
-		grid-template-columns: 1fr 1fr;
-		grid-auto-rows: 1fr;
-		gap: 5rem;
-		padding: 5rem;
-		max-width: 60rem;
-		font-size: 1.5rem;
-	}
-
-	img.project-card {
-	}
+div.project-info {
+	width: max-content;
+	padding-bottom: 1em;
 }
