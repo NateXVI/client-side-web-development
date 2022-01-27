@@ -36,9 +36,9 @@ div.hello > h2 {
 
 div.intro-card {
 	animation-name: tossin;
-	animation-duration: 1s;
+	animation-duration: 1.5s;
 	animation-timing-function: linear;
-	animation-delay: 0.5s;
+	animation-delay: 0s;
 	animation-iteration-count: 1;
 	animation-direction: normal;
 	animation-fill-mode: forwards;
@@ -74,7 +74,7 @@ img.intro-card {
 	border-radius: 20px;
 	border: 1px solid white;
 	box-shadow: 0 0 0 4px black;
-	filter: grayscale() contrast(4);
+	filter: grayscale() contrast(3);
 }
 
 div.info > div > aside {

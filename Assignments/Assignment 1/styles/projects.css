@@ -1,52 +1,85 @@
+section.projects,
+div.slant {
+	background-color: #fff;
+	/* background-image: url('../images/blob.svg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 30vh;
+	background-position: center; */
+}
+
 section.projects {
 	color: black;
-	background-color: #fff;
-	padding: 3rem;
-	overflow: hidden;
+	font-size: 0.75rem;
+	padding: 1rem;
 }
 
 div.projects-container {
+	max-width: 40rem;
 	margin: 0 auto;
-	max-width: 50rem;
 }
 
 header.projects {
-	font-size: 2rem;
+	font-size: 2em;
 	text-align: center;
-	margin-bottom: 2rem;
+	padding: 1rem 0.5rem;
+}
+
+div.project-cards {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
 }
 
 div.project-card {
-	padding: 2em;
+	width: full;
+	padding: 1rem;
 	display: flex;
-	width: 100%;
-	gap: 2rem;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+	gap: 0.5rem;
 	align-items: flex-end;
-	margin-bottom: 1.5rem;
-	background-color: white;
-	/* border: 2px solid black; */
 	border-radius: 20px;
-	box-shadow: 0 0 0 0 #999, 0 0 0 0 black;
-
-	--transition-time: 0.7s;
-	transition: transform var(--transition-time), box-shadow var(--transition-time),
-		border var(--transition-time);
+	--time: 1s;
+	transition: transform var(--time), box-shadow var(--time);
 }
 
 div.project-card:hover {
-	/* transform: scale(1.05) translateY(-0.75rem); */
-	transform: scale(1.01);
-	box-shadow: 0 0 0 2px #aaa, 0 15px 5px 0px #555;
+	/* transform: translateX(5%); */
+	transform: scale(0.95);
+	box-shadow: inset 0 0 10px 5px #555;
+}
+
+div.project-card:hover > img.project-card {
+	transform: scale(1.025) translateX(25%);
+}
+
+div.project-card:hover > div.project-info > * {
 }
 
 img.project-card {
-	max-width: 20vw;
-	min-width: 5em;
-	width: 10rem;
-	align-self: center;
+	--time: 1s;
+	transition: transform var(--time), box-shadow var(--time);
+	width: 10em;
 }
 
 div.project-info {
-	width: max-content;
-	padding-bottom: 1em;
+	padding: 0.1rem;
+}
+
+div.project-info > * {
+	transition: transform var(--time), box-shadow var(--time);
+}
+
+div.project-info > h3 {
+	font-size: 2em;
+}
+div.project-info > p {
+	font-size: 1.25em;
+}
+
+@media screen and (min-width: 800px) {
+	section.projects {
+		font-size: 1rem;
+	}
 }

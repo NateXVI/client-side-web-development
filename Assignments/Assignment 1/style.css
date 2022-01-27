@@ -10,6 +10,7 @@
 html {
 	background: #151515;
 	color: white;
+	scroll-behavior: smooth;
 }
 
 *,
@@ -72,14 +73,43 @@ body > header > div {
 	transform: scale(1.1);
 }
 
+p.message {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	font-size: 1.2rem;
+	color: white;
+	background: #000;
+	padding: 0.25em 1em;
+	border-radius: 10px 0 0 0;
+	display: none;
+}
+
 footer {
 	width: 100%;
 	padding: 2rem;
+	min-height: 100vh;
 	background-color: #495bd0;
 }
 
 @media screen and (min-width: 800px) {
 	body > header {
 		font-size: 1.25rem;
+	}
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
+
+	* {
+		animation-duration: 0s !important;
+		animation-delay: 0s !important;
+		transition: all -1s !important;
+	}
+
+	p.message {
+		display: block;
 	}
 }
