@@ -56,9 +56,6 @@ div.project-card:hover > img.project-card {
 	transform: scale(1.025) translateX(20%);
 }
 
-div.project-card:hover > div.project-info > * {
-}
-
 img.project-card {
 	--time: 1s;
 	transition: transform var(--time), box-shadow var(--time);
