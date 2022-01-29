@@ -11,6 +11,7 @@ html {
 	background: #151515;
 	color: white;
 	scroll-behavior: smooth;
+	background-color: #495bd0;
 }
 
 *,
@@ -87,9 +88,14 @@ p.message {
 
 footer {
 	width: 100%;
-	padding: 2rem;
-	min-height: 100vh;
+	padding: 1rem;
+	font-size: 0.75rem;
+	color: #eee;
 	background-color: #495bd0;
+}
+
+footer > p {
+	text-align: center;
 }
 
 @media screen and (min-width: 800px) {

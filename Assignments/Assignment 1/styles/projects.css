@@ -47,7 +47,8 @@ div.project-card {
 div.project-card:hover {
 	/* transform: translateX(5%); */
 	/* transform: scale(0.95); */
-	box-shadow: inset 0 0 100px 300px #efefef;
+	box-shadow: inset 0 0 100px 300px #dfdfff;
+	/* box-shadow: inset 0 0 100px 300px #000; */
 	/* color: white; */
 }
 
@@ -70,6 +71,7 @@ div.project-info {
 
 div.project-info > * {
 	transition: transform var(--time), box-shadow var(--time);
+	text-shadow: 2px 1px 0 #ffffff;
 }
 
 div.project-info > h3 {

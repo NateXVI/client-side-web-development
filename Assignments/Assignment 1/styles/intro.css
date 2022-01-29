@@ -102,7 +102,7 @@ dl.intro-card > dt {
 
 dl.intro-card > dd {
 	width: 100%;
-	font-family: 'Permanent Marker', inherit;
+	font-family: 'Permanent Marker';
 	font-size: 1em;
 	color: #222;
 	text-align: left;
