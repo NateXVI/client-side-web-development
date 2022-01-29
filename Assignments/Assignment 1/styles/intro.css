@@ -102,7 +102,7 @@ dl.intro-card > dt {
 
 dl.intro-card > dd {
 	width: 100%;
-	font-family: 'Permanent Marker', cursive;
+	font-family: 'Permanent Marker', inherit;
 	font-size: 1em;
 	color: #222;
 	text-align: left;
@@ -145,7 +145,7 @@ svg.slant {
 	}
 
 	div.intro-card {
-		max-width: 42rem;
+		max-width: 38rem;
 	}
 
 	.intro {
@@ -170,6 +170,6 @@ svg.slant {
 	}
 
 	div.intro-card {
-		max-width: 50rem;
+		max-width: 45rem;
 	}
 }

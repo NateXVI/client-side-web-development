@@ -13,7 +13,7 @@
 
 svg.colors-svg {
 	transform-origin: top right;
-	transform: translateX(0.3em) scaleY(1.61) scaleX(1.2);
+	transform: translateX(0.2em) scaleY(1.61) scaleX(1.1);
 }
 
 svg.colors-svg > path {
