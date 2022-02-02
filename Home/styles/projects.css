@@ -10,6 +10,7 @@ div.slant {
 }
 
 .projects {
+	scroll-snap-align: start end;
 	width: 100%;
 	padding-bottom: 4em;
 	min-height: 100vh;

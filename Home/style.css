@@ -74,6 +74,10 @@ body > header > div {
 	transform: scale(1.1);
 }
 
+main {
+	scroll-snap-type: y mandatory;
+}
+
 p.message {
 	position: fixed;
 	bottom: 0;
@@ -91,7 +95,8 @@ footer {
 	padding: 1rem;
 	font-size: 0.75rem;
 	color: #eee;
-	background-color: #495bd0;
+	/* background-color: #495bd0; */
+	background-color: #000;
 }
 
 footer > p {
