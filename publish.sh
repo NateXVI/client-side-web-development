@@ -8,9 +8,9 @@ echo 'clearing public_html directory'
 rm -rf ~/public_html 2>> /dev/null || true
 mkdir ~/public_html
 
-# move Assignment1 (profile) files to public_html
+# move home files to public_html
 echo 'moving profile files to public_html'
-rsync -a ./Assignments/Assignment1/ ~/public_html/
+rsync -a ./Home/ ~/public_html/
 
 # move all the assingments into public_html
 echo 'moving other assignments to public_html'

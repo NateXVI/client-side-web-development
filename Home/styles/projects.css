@@ -1,85 +1,43 @@
 section.projects,
 div.slant {
-	background-color: #fff;
-	/* background-image: url('../images/blob.svg');
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: 30vh;
-	background-position: center; */
+	background-color: black;
 }
 
-section.projects {
-	color: black;
-	font-size: 0.75rem;
-	padding: 1rem;
+.subtle {
+	font-size: smaller;
+	font-weight: normal;
+	color: #777;
+}
+
+.projects {
+	width: 100%;
+	padding-bottom: 4em;
+}
+
+.projects > h1 {
+	color: white;
+	font-size: 2.5em;
+	font-weight: bold;
+	text-align: center;
+	padding-bottom: 0.75em;
 }
 
 div.projects-container {
-	max-width: 40rem;
+	width: 100%;
+	max-width: 800px;
 	margin: 0 auto;
+	box-shadow: 0 0 20px 15px #ffffff33;
+	overflow: hidden;
+	border-radius: 10px;
 }
 
-header.projects {
-	font-size: 2em;
-	text-align: center;
-	padding: 1rem 0.5rem;
-}
-
-div.project-cards {
-	display: flex;
-	flex-direction: column;
-	gap: 1rem;
-}
-
-div.project-card {
-	width: full;
+div.project {
 	padding: 1rem;
-	display: flex;
-	flex-direction: row-reverse;
-	justify-content: space-between;
-	gap: 0.5rem;
-	align-items: flex-end;
-	border-radius: 20px;
-	--time: 1s;
-	transition: transform var(--time), box-shadow var(--time);
+	width: 100%;
+	background: #222;
+	transition: background 0.4s;
 }
 
-div.project-card:hover {
-	/* transform: translateX(5%); */
-	/* transform: scale(0.95); */
-	box-shadow: inset 0 0 100px 300px #dfdfff;
-	/* box-shadow: inset 0 0 100px 300px #000; */
-	/* color: white; */
-}
-
-div.project-card:hover > img.project-card {
-	transform: scale(1.025) translateX(20%);
-}
-
-img.project-card {
-	--time: 1s;
-	transition: transform var(--time), box-shadow var(--time);
-	width: 10em;
-}
-
-div.project-info {
-	padding: 0.1rem;
-}
-
-div.project-info > * {
-	transition: transform var(--time), box-shadow var(--time);
-	text-shadow: 2px 1px 0 #ffffff;
-}
-
-div.project-info > h3 {
-	font-size: 2em;
-}
-div.project-info > p {
-	font-size: 1.25em;
-}
-
-@media screen and (min-width: 800px) {
-	section.projects {
-		font-size: 1rem;
-	}
+div.project:hover {
+	background: #2a2a2a;
 }
