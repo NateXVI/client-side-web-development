@@ -12,6 +12,7 @@ div.slant {
 .projects {
 	scroll-snap-align: start end;
 	width: 100%;
+	padding: 0 1em;
 	padding-bottom: 4em;
 	min-height: 100vh;
 	display: grid;
@@ -34,7 +35,7 @@ div.projects-container {
 	width: 100%;
 	max-width: 800px;
 	margin: 0 auto;
-	box-shadow: 0 0 20px 15px #ffffff33;
+	box-shadow: 0 0 30px 10px #ffffff55;
 	overflow: hidden;
 	border-radius: 10px;
 }
@@ -46,6 +47,7 @@ div.project {
 	transition: background 0.4s;
 }
 
-div.project:hover {
+div.project:hover,
+div.project:active {
 	background: #2a2a2a;
 }
