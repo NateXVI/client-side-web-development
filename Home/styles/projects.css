@@ -45,6 +45,7 @@ div.project {
 	width: 100%;
 	background: #222;
 	transition: background 0.4s;
+	border-top: 1px solid black;
 }
 
 div.project:hover,
