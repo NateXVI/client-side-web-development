@@ -1,0 +1,24 @@
+section.interests {
+	padding: 2rem;
+	font-size: 1rem;
+}
+
+div.interests-container {
+	background-color: white;
+	color: black;
+	padding: 2em;
+	max-width: 50rem;
+	margin: 0 auto;
+	border-radius: 20px;
+	box-shadow: 0px 0px 10px 0 #00000066;
+}
+
+header.interests > h1 {
+	font-size: 2em;
+	text-align: center;
+}
+
+div.interests {
+	font-size: 1.25em;
+	padding-left: 2rem;
+}

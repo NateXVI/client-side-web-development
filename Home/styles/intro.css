@@ -1,0 +1,175 @@
+.intro {
+	color: black;
+	width: 100%;
+	padding: 1rem;
+	background-color: #495bd0;
+}
+
+div.hello > h2 {
+	font-size: 3em;
+	padding-top: 1rem;
+	line-height: 80%;
+}
+
+@keyframes tossin {
+	0% {
+		transform: translateX(-700px) translateY(-1500px) scale(3) rotate(-80deg);
+		box-shadow: 0 0 70px 100px #444477;
+		opacity: 0;
+	}
+	17% {
+		opacity: 1;
+	}
+	60% {
+		transform: translateX(-80px) translateY(-170px) scale(1) rotate(2deg);
+		box-shadow: -5px 5px 0px 5px #333333aa;
+	}
+	90% {
+		transform: translateX(-10px) translateY(-22px) scale(1) rotate(4deg);
+	}
+	100% {
+		transform: scale(1) rotate(5deg);
+		box-shadow: -5px 5px 0px 5px #333333aa;
+		opacity: 1;
+	}
+}
+
+div.intro-card {
+	animation-name: tossin;
+	animation-duration: 1.5s;
+	animation-timing-function: linear;
+	animation-delay: 0s;
+	animation-iteration-count: 1;
+	animation-direction: normal;
+	animation-fill-mode: forwards;
+
+	z-index: 1000;
+	opacity: 0;
+	max-width: 30rem;
+	margin: 4rem auto;
+	border-radius: 20px;
+	border-bottom: 1em solid red;
+}
+
+div.intro-card:first-child {
+	background-color: red;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+}
+
+div.info {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: white;
+	padding: 1.5rem;
+}
+
+img.intro-card {
+	width: 6rem;
+	height: 6rem;
+	object-fit: cover;
+	border-radius: 50%;
+	border-radius: 20px;
+	border: 1px solid white;
+	box-shadow: 0 0 0 4px black;
+	filter: grayscale() contrast(3);
+}
+
+div.info > div > aside {
+	color: #666;
+	font-size: 0.8em;
+	text-align: center;
+}
+
+dl.intro-card {
+	color: black;
+	width: 100%;
+	display: grid;
+	align-content: center;
+	justify-content: end;
+	gap: 0.5rem 1rem;
+	grid-template-columns: auto auto;
+	align-items: end;
+}
+
+dl.intro-card > dt {
+	text-align: end;
+	color: #555;
+	font-size: 0.8em;
+}
+
+dl.intro-card > dd {
+	width: 100%;
+	font-family: 'Permanent Marker';
+	font-size: 1em;
+	color: #222;
+	text-align: left;
+	opacity: 0.97;
+	backdrop-filter: blur(20px);
+	line-height: 60%;
+	position: relative;
+}
+
+dl.intro-card > dd::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background-color: black;
+	height: 1px;
+	width: 100%;
+}
+
+dd.favorite-colors > img {
+	height: 1em;
+	width: 100%;
+	object-fit: fill;
+	margin-bottom: -0.2em;
+	transform: translateX(-0.25em);
+}
+
+svg.slant {
+	width: calc(100% + 10px);
+	height: 17.63vw;
+	margin-top: -2px;
+}
+
+@media screen and (min-width: 800px) {
+	img.intro-card {
+		width: 10rem;
+		height: 10rem;
+		border-width: 2px;
+		box-shadow: 0 0 0 4px black;
+	}
+
+	div.intro-card {
+		max-width: 38rem;
+	}
+
+	.intro {
+		font-size: 1.4rem;
+	}
+
+	dl.intro-card > dd {
+		font-size: 1.5em;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	img.intro-card {
+		width: 14rem;
+		height: 14rem;
+		border-width: 3px;
+		box-shadow: 0 0 0 6px black;
+	}
+
+	.intro {
+		font-size: 1.6rem;
+	}
+
+	div.intro-card {
+		max-width: 45rem;
+	}
+}
