@@ -25,10 +25,10 @@ body {
 	color: inherit;
 }
 
-*::selection {
+/* *::selection {
 	background-color: black;
 	color: white;
-}
+} */
 
 a {
 	text-decoration: none;
