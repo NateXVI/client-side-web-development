@@ -12,9 +12,16 @@ div.slant {
 .projects {
 	width: 100%;
 	padding-bottom: 4em;
+	min-height: 80vh;
+	display: grid;
+	place-items: center;
 }
 
-.projects > h1 {
+.projects > div {
+	width: 100%;
+}
+
+.projects > div > h1 {
 	color: white;
 	font-size: 2.5em;
 	font-weight: bold;
