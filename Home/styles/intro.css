@@ -141,6 +141,12 @@ svg.slant {
 	margin-top: -2px;
 }
 
+@media screen and (max-width: 400px) {
+	div.info {
+		flex-direction: column;
+	}
+}
+
 @media screen and (min-width: 800px) {
 	img.intro-card {
 		width: 10rem;
