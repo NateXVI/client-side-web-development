@@ -25,6 +25,10 @@ echo 'renaming assignment 2'
 mv Assignment2 syllabus
 mv syllabus/syllabus.html syllabus/index.html
 
+echo 'renaming assignment 3'
+mv Assignment3 recreating-a-sample-page
+
 echo -e "\nDeployed to https://icarus.cs.weber.edu/~${USER}/"
 echo "            https://icarus.cs.weber.edu/~${USER}/profile/"
 echo "            https://icarus.cs.weber.edu/~${USER}/syllabus/"
+echo "            https://icarus.cs.weber.edu/~${USER}/recreating-a-sample-page/"
