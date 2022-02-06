@@ -52,3 +52,11 @@ div.project:hover,
 div.project:active {
 	background: #2a2a2a;
 }
+
+h3.project-title {
+	font-weight: 500;
+}
+
+.underline {
+	text-decoration: underline;
+}
