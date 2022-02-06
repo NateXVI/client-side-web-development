@@ -19,14 +19,14 @@ rsync -a ./Assignments/ ~/public_html
 # rename things how I want them to be
 echo -e '\nrenaming assignment 1'
 cd ~/public_html
-mv Assignment1 profile
+mv Assignment01 profile
 
 echo 'renaming assignment 2'
-mv Assignment2 syllabus
+mv Assignment02 syllabus
 mv syllabus/syllabus.html syllabus/index.html
 
 echo 'renaming assignment 3'
-mv Assignment3 recreating-a-sample-page
+mv Assignment03 recreating-a-sample-page
 
 echo -e "\nDeployed to https://icarus.cs.weber.edu/~${USER}/"
 echo "            https://icarus.cs.weber.edu/~${USER}/profile/"
