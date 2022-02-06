@@ -57,6 +57,11 @@ h3.project-title {
 	font-weight: 500;
 }
 
+.project-description {
+	font-size: 1em;
+	color: #777;
+}
+
 .underline {
 	text-decoration: underline;
 }
