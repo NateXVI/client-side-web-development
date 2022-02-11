@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<meta name="robots" content="index,follow" />
+		<meta name="description" content="a newsletter page" />
+	<style>
+    * {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+}
+
+main {
+	width: 90%;
+	margin: 0 auto;
+}
+
+header {
+	padding: 10px;
+	color: maroon;
+}
+
+header > .top > span:nth-child(2) {
+	float: right;
+}
+
+header > h1 {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 4rem;
+	font-weight: bold;
+	text-align: center;
+	border-top: 2px solid maroon;
+	padding-top: 1rem;
+	margin: 10px 0 5px 0;
+}
+
+header > h1 > .subtitle {
+	display: block;
+	font-size: 1.5rem;
+	border-top: 1px solid maroon;
+	padding-top: 1rem;
+	margin-top: 1rem;
+}
+
+.toph > img {
+	width: 100%;
+}
+
+/* cards  */
+.cards {
+	text-align: center;
+}
+
+.cards > div {
+	display: inline-block;
+	width: 30%;
+	background-color: #eee;
+	margin: 10px;
+	padding: 10px;
+	vertical-align: top;
+	height: 250px;
+}
+
+.cards > div > ul,
+.cards > div > p {
+	text-align: left;
+}
+
+.cards > div > h1 {
+	background-color: white;
+	border: 1px solid white;
+	width: 60px;
+	height: 60px;
+	border-radius: 30px;
+	line-height: 60px;
+	display: inline-block;
+}
+
+blockquote {
+	font-size: 2rem;
+	color: maroon;
+	text-align: center;
+}
+
+blockquote::before,
+blockquote::after {
+	content: '"';
+	font-size: 2rem;
+	color: gray;
+}
+
+table {
+	width: 98%;
+	margin: 10px;
+	border-collapse: collapse;
+}
+
+table > thead {
+	color: white;
+	font-size: 1.2rem;
+	font-weight: bold;
+	background: rosybrown;
+}
+
+thead th,
+tbody td {
+	padding: 10px 0;
+}
+
+tbody tr:nth-child(odd) {
+	background-color: white;
+}
+
+tbody tr:nth-child(even) {
+	background-color: #eee;
+}
+
+.highlighted {
+	background-color: thistle;
+	margin: 10px;
+	padding: 10px;
+	overflow: auto;
+}
+
+.highlighted img {
+	border: 2px dashed green;
+	margin: 1rem;
+	float: right;
+}
+
+  </style>
+	</head>
+	<body>
+		<main>
+			<header>
+				<div class="top"><span>Lorem ipsum</span> <span>January 27, 2010</span></div>
+				<h1>
+					A Newsletter
+					<span class="subtitle">Lorem ipsum dolor sit amet, consectetur enim elit.</span>
+				</h1>
+			</header>
+			<section class="toph">
+				<img src="https://via.placeholder.com/900x200.png" alt="Description goes here" />
+				<h1>Lorem Ipsum Dolor Sit Amet Ligual</h1>
+				<p>
+					Proident id anim laborum nostrud et qui elit. Veniam aliquip enim in anim. Amet
+					aliquip nisi nisi nisi Lorem quis pariatur nisi et ipsum amet Lorem in. Laborum
+					exercitation minim ut qui anim ex ut minim aliquip eiusmod duis dolor. Culpa
+					cupidatat magna enim culpa ea non tempor tempor. Sunt pariatur anim non do
+					cillum enim magna adipisicing elit et proident dolor enim cillum. Aliqua
+					proident labore cillum aute laboris officia aliquip.
+				</p>
+				<ol>
+					<li>
+						Non tempor voluptate proident culpa proident ad est non dolore duis velit
+						magna id.
+					</li>
+					<li>Laboris tempor cupidatat fugiat ipsum eiusmod.</li>
+					<li>Voluptate et eiusmod laboris mollit aliqua culpa.</li>
+				</ol>
+			</section>
+			<section class="cards">
+				<div class="card">
+					<h1>1</h1>
+					<h2>Bla bla</h2>
+					<ul>
+						<li>Nisi laborum elit nostrud</li>
+						<li>Occaecat consequat in cupidatat veniam</li>
+						<li>Et veniam est nulla deserunt ut</li>
+					</ul>
+				</div>
+				<div class="card">
+					<h1>2</h1>
+					<h2>Bla bla</h2>
+					<p>
+						Deserunt et id id mollit ea consequat cillum labore exercitation ut id fugiat
+						voluptate adipisicing.
+					</p>
+				</div>
+				<div class="card">
+					<h1>3</h1>
+					<h2>Bla bla</h2>
+					<p>
+						Laborum minim ut aute aliqua culpa eiusmod eiusmod reprehenderit elit aliquip
+						laborum in eiusmod.
+					</p>
+				</div>
+			</section>
+			<blockquote>
+				Sit laboris Lorem cillum reprehenderit. Eu esse aliqua sint ea. Qui cillum officia
+				laboris exercitation duis voluptate reprehenderit qui commodo mollit ut fugiat
+				minim veniam. Aliquip aliqua minim ex tempor nisi mollit in occaecat do velit
+				irure. Nostrud est est reprehenderit nulla reprehenderit.
+			</blockquote>
+			<table>
+				<thead>
+					<tr>
+						<th>Lorem</th>
+						<th>Ipsom</th>
+						<th>Solor</th>
+						<th>Emet</th>
+					</tr>
+				</thead>
+				<tbody>
+          <tr>
+            <tr>
+              <td>lorem</td>
+              <td>asdf</td>
+              <td>asdf</td>
+              <td>asdfr</td>
+            </tr>
+            <tr>
+              <td>asdf</td>
+              <td>asdf</td>
+              <td>asdf</td>
+              <td>asdf</td>
+            </tr>
+            <tr>
+              <td>asdf</td>
+              <td>asdf</td>
+              <td>sadf</td>
+              <td>asdf</td>
+            </tr>
+            <tr>
+              <td>asdf</td>
+              <td>asdf</td>
+              <td>asdf</td>
+              <td>asdf</td>
+            </tr>
+          </tr>
+        </tbody>
+			</table>
+      <section class="highlighted">
+        <img src="https://via.placeholder.com/350x200.png" alt="">
+        <h1>Consequat adipisicing laborum pariatur reprehenderit.</h1>
+        <p>Sunt reprehenderit aute aute exercitation ad elit nisi qui cupidatat dolor exercitation anim dolore fugiat. Magna culpa occaecat ad deserunt exercitation. Velit ad nostrud Lorem aliquip culpa sit ipsum incididunt veniam tempor ad. Anim et tempor enim aliqua ea et magna reprehenderit ut dolore sit sit non est.</p>
+      </section>
+		</main>
+	</body>
+</html>
