@@ -28,8 +28,12 @@ mv Assignment03 recreating-a-sample-page
 echo 'renaming assignment 4'
 mv Assignment04 landing-page-layout
 
+echo 'renaming assignment 5'
+mv Assignment05 page-layout-with-flexbox
+
 echo -e "\nDeployed to https://icarus.cs.weber.edu/~${USER}/"
 echo "            https://icarus.cs.weber.edu/~${USER}/profile/"
 echo "            https://icarus.cs.weber.edu/~${USER}/syllabus/"
 echo "            https://icarus.cs.weber.edu/~${USER}/recreating-a-sample-page/"
 echo "            https://icarus.cs.weber.edu/~${USER}/landing-page-layout/"
+echo "            https://icarus.cs.weber.edu/~${USER}/page-layout-with-flexbox/"
