@@ -1,4 +1,4 @@
-# Assignment 4 - Landing page layout
+# Assignment 5 - Page layout with Flexbox
 
 Due: Mar 2, 2022 at 11:59pm
 
