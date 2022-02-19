@@ -25,7 +25,11 @@ mv syllabus/syllabus.html syllabus/index.html
 echo 'renaming assignment 3'
 mv Assignment03 recreating-a-sample-page
 
+echo 'renaming assignment 4'
+mv Assignment04 landing-page-layout
+
 echo -e "\nDeployed to https://icarus.cs.weber.edu/~${USER}/"
 echo "            https://icarus.cs.weber.edu/~${USER}/profile/"
 echo "            https://icarus.cs.weber.edu/~${USER}/syllabus/"
 echo "            https://icarus.cs.weber.edu/~${USER}/recreating-a-sample-page/"
+echo "            https://icarus.cs.weber.edu/~${USER}/landing-page-layout/"
