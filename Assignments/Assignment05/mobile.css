@@ -13,6 +13,13 @@ body {
 	justify-content: space-between;
 }
 
+.everything {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	min-height: 100vh;
+}
+
 main {
 	overflow: hidden;
 }
@@ -40,9 +47,6 @@ header {
 
 div.posts {
 	padding: 0.5rem;
-}
-
-div.post {
 }
 
 .post-info > h2,
