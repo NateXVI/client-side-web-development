@@ -1,6 +1,6 @@
 * {
 	box-sizing: border-box;
-	overflow: hidden;
+	overflow: auto;
 }
 
 body {
@@ -10,26 +10,15 @@ body {
 		Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-header,
-aside,
-.main,
-.secondary {
-	display: block;
-	margin-bottom: 10px;
-}
-
-header,
-aside,
-.main,
-.secondary,
-footer {
-	padding: 0 10px;
+p {
+	margin-left: 20px;
+	font-size: larger;
 }
 
 header {
-	overflow: hidden;
 	background-color: #7adfcf;
 	height: 100px;
+	margin-bottom: 5px;
 }
 
 aside {
@@ -37,43 +26,55 @@ aside {
 	background-color: #96c6e1;
 }
 
-.main {
-	height: 300px;
-	background-color: #dfdfdf;
+.float-sec,
+.flex-sec {
+	margin-bottom: 5px;
 }
 
-.secondary {
-	height: 100px;
+.main-float,
+.main-flex {
+	background-color: #dfdfdf;
+	height: 295px;
+	margin-bottom: 5px;
+}
+
+.secondary-float,
+.secondary-flex {
 	background-color: #dfddc8;
+	height: 100px;
 }
 
 footer {
-	height: 80px;
 	background-color: #bde0c4;
+	height: 80px;
 }
 
 @media screen and (min-width: 768px) {
-	main {
-		display: flex;
-		gap: 10px;
-	}
-
 	aside {
 		display: block;
-		height: 500px;
-		width: 300px;
+		width: calc(30% - 5px);
+		height: 400px;
 	}
 
-	.main-container {
-		width: 100%;
-		overflow: hidden;
+	div.float > aside {
+		float: left;
+	}
+	div.float-sec {
+		float: right;
+		width: 70%;
 	}
 
-	.main {
-		height: 70%;
+	div.float > footer {
+		clear: both;
 	}
 
-	.secondary {
-		height: 26%;
+	.flex-container {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.flex-sec {
+		width: 70%;
+		margin-bottom: 5px;
 	}
 }
