@@ -24,7 +24,7 @@ def main():
         file_text = open(args[0], "r").read()
         file_name = path.splitext(args[0])[0]
 
-        html_file = path.join(path.dirname(args[0]), file_name + ".html")
+        html_file = path.join(path.dirname(args[0]), "index.html")
         html_text = convert_to_html(args[0])
 
         open(html_file, "w").write(html_text)
