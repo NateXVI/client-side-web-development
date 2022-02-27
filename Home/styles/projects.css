@@ -60,6 +60,11 @@ h3.project-title {
 .project-description {
 	font-size: 1em;
 	color: #777;
+	padding-left: 1rem;
+}
+
+p.project-description > a {
+	text-decoration: underline;
 }
 
 .underline {
