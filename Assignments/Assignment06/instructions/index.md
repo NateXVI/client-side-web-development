@@ -1,6 +1,6 @@
 # Assignment 6 - A simple form
 
-Due: Mar 9, 2022 at 11:59pm
+**Due: Mar 9, 2022 at 11:59pm**
 
 Recreate the simple form below. Place all your CSS rules within a \<style\> tag inside the \<head\> element of your HTML document. Make sure to organize your HTML using semantic tags.
 

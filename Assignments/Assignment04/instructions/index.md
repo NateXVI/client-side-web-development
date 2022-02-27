@@ -1,6 +1,6 @@
 # Assignment 4 - Landing page layout
 
-Due: Feb 23, 2022 at 11:59pm
+**Due: Feb 23, 2022 at 11:59pm**
 
 Recreate the sample landing page below using HTML and CSS. You may choose different fonts and colors. Follow these instructions to do so:
 

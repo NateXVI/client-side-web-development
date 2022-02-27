@@ -1,6 +1,6 @@
 # Assignment 3- Recreating a sample page
 
-Due: Feb 16, 2022 at 11:59pm
+**Due: Feb 16, 2022 at 11:59pm**
 
 Recreate the sample site below using HTML and internal CSS (Place all your CSS rules in an internal \<style\>\</style\> element under the page \<head\> element).
 
