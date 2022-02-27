@@ -4,6 +4,17 @@ import sys
 
 args = sys.argv[1:]
 
+def convert_to_html(file_name):
+    dir = path.dirname(__file__)
+    print(dir)
+    base_html = open(path.join(dir, "render.html"), "r").read()
+    styles = open(path.join(dir, "./render.css"), "r").read()
+    file_text = open(file_name, "r").read()
+
+    output = base_html.replace("/* styles */", styles)
+    output = output.replace("<!-- content -->", md(file_text))
+    return output
+
 def main():
     if len(args) == 0:
         print("No arguments given")
@@ -14,7 +25,7 @@ def main():
         file_name = path.splitext(args[0])[0]
 
         html_file = path.join(path.dirname(args[0]), file_name + ".html")
-        html_text = md(file_text)
+        html_text = convert_to_html(args[0])
 
         open(html_file, "w").write(html_text)
         print("Rendered file: " + html_file)
