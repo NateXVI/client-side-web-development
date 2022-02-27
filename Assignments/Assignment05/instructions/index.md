@@ -8,9 +8,9 @@ Recreate the sample blog landing page below using Flexbox:
 -   Place all your CSS rules within a \<style\> tag inside the `<head>` element of your HTML document. Don't use an external CSS file.
 -   Include the robots and description meta tags
 -   Organize your HTML using semantic tags.
--   You may used different colors and images (link to https://unsplash.com (Links to an external site.)).
+-   You may used different colors and images (link to [https://unsplash.com](https://unsplash.com) (Links to an external site.)).
 
-Name your HTML document **index.html**, validate it at https://validator.w3.org/#validate_by_upload (Links to an external site.), and submit it via Canvas.
+Name your HTML document **index.html**, validate it at [https://validator.w3.org/#validate_by_upload](https://validator.w3.org/#validate_by_upload) (Links to an external site.), and submit it via Canvas.
 
 **HINT:** Use a mobile-first approach.
 

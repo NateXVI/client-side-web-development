@@ -2,7 +2,7 @@
 
 **Due: Jan 28, 2022 at 11:59pm**
 
-In this assignment, you will be creating your public personal profile and publishing it to your personal Icarus page (https://icarus.cs.weber.edu/~your_user_name/ (Links to an external site.). Information about accessing icarus can be found at https://weber.edu/CS/remote-access.html (Links to an external site.).
+In this assignment, you will be creating your public personal profile and publishing it to your personal Icarus page (https://icarus.cs.weber.edu/~your_user_name/ (Links to an external site.). Information about accessing icarus can be found at [https://weber.edu/CS/remote-access.html](https://weber.edu/CS/remote-access.html) (Links to an external site.).
 
 Your profile must be created inside an HTML file named index.html. It should contain information about yourself, your school-related activities, your projects, your interests, your awards/honors, and/or your hobbies. It should not contain any private or sensitive information that would not want to share with the world. The organization and layout of this profile are left up to you; just make sure it's simple, clean, and professional.
 

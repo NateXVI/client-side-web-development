@@ -4,6 +4,6 @@
 
 Recreate the simple form below. Place all your CSS rules within a `<style>` tag inside the `<head>` element of your HTML document. Make sure to organize your HTML using semantic tags.
 
-Name your HTML document **index.html**, validate it at https://validator.w3.org/#validate_by_upload (Links to an external site.), and submit it via Canvas.
+Name your HTML document **index.html**, validate it at [https://validator.w3.org/#validate_by_upload](https://validator.w3.org/#validate_by_upload) (Links to an external site.), and submit it via Canvas.
 
 ![reference image](./reference-image.png)
