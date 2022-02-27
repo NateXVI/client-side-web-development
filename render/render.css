@@ -3,7 +3,8 @@
 	margin: 0 auto;
 	padding: 1rem 5px;
 	width: 100%;
-	max-width: 800px;
+	max-width: min(800px, 100vw);
+	overflow: hidden;
 }
 /* styles from https://github.com/sindresorhus/github-markdown-css */
 
