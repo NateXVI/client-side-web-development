@@ -1,7 +1,7 @@
 /* my styles */
 .container {
 	margin: 0 auto;
-	padding-top: 1rem 5px;
+	padding: 1rem 5px;
 	width: 100%;
 	max-width: 800px;
 }
