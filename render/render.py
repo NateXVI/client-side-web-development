@@ -6,7 +6,6 @@ args = sys.argv[1:]
 
 def convert_to_html(file_name):
     dir = path.dirname(__file__)
-    print(dir)
     base_html = open(path.join(dir, "render.html"), "r").read()
     styles = open(path.join(dir, "./render.css"), "r").read()
     file_text = open(file_name, "r").read()
@@ -24,7 +23,7 @@ def main():
         file_text = open(args[0], "r").read()
         file_name = path.splitext(args[0])[0]
 
-        html_file = path.join(path.dirname(args[0]), "index.html")
+        html_file = path.join(path.dirname(args[0]), file_name + ".html")
         html_text = convert_to_html(args[0])
 
         open(html_file, "w").write(html_text)
