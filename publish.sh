@@ -15,6 +15,7 @@ rsync -a ./Assignments/ ~/public_html
 
 echo -e '\nrendering md files to html'
 find ~/public_html -name '*.md' -exec python3 render/render.py {} \;
+find ~/public_html -name '*.md' -exec rm {} \;
 
 # rename things how I want them to be
 echo -e '\nrenaming assignment 1'
