@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>A simple form</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<header>
+			<div>
+				<h1>Your Name</h1>
+				<nav>
+					<ul class="horizontal links">
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Products</a></li>
+						<li><a href="#">Services</a></li>
+						<li><a href="#">Contact Us</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div>
+				<ul class="horizontal links">
+					<li><a href="#">Sign in</a></li>
+					<li><a href="#">Sign up</a></li>
+				</ul>
+			</div>
+		</header>
+		<div class="center">
+			<div class="side-menu">
+				<h2>Main menu</h2>
+				<ul class="vertical links">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Products</a></li>
+					<li><a href="#">Services</a></li>
+					<li><a href="#">Contact Us</a></li>
+				</ul>
+				<h2>Featured projects</h2>
+				<ul class="vertical links">
+					<li><a href="#">Project A</a></li>
+					<li><a href="#">Project B</a></li>
+					<li><a href="#">Project C</a></li>
+					<li><a href="#">Project D</a></li>
+					<li><a href="#">Project E</a></li>
+					<li><a href="#">Project F</a></li>
+					<li><a href="#">Project G</a></li>
+				</ul>
+			</div>
+			<main>
+				<h2>Contact Us Form</h2>
+				<form action="" method="post">
+					<label for="name">Name</label>
+					<input
+						type="text"
+						name="name"
+						id="name"
+						placeholder="Type name here"
+					/>
+					<label for="Username">Username</label>
+					<input
+						type="text"
+						name="username"
+						id="username"
+						placeholder="Text input"
+					/>
+					<p class="label">Are you a member?</p>
+					<input
+						class="inline"
+						type="radio"
+						name="member"
+						id="member"
+						value="Yes"
+					/>
+					<label class="inline" for="member">Yes</label>
+					<input
+						class="inline"
+						type="radio"
+						name="member"
+						id="member"
+						value="No"
+					/>
+					<label class="inline" for="member">No</label>
+					<label for="email">Email</label>
+					<input
+						type="email"
+						name="email"
+						id="email"
+						placeholder="Email input"
+					/>
+					<label for="message">Message</label>
+					<textarea
+						name="message"
+						id=""
+						cols="30"
+						rows="10"
+						placeholder="Textarea"
+					></textarea>
+				</form>
+			</main>
+		</div>
+		<footer></footer>
+	</body>
+</html>
