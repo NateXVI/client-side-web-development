@@ -63,7 +63,15 @@
 						name="username"
 						id="username"
 						placeholder="Text input"
+						style="
+							border-radius: 3px;
+							border: 1px solid #54fc54;
+							margin-bottom: 3px;
+						"
 					/>
+					<p style="margin: 0; font-size: 0.95rem; color: #54fc54">
+						Username is available
+					</p>
 					<p class="label">Are you a member?</p>
 					<input
 						class="inline"
@@ -88,6 +96,16 @@
 						id="email"
 						placeholder="Email input"
 					/>
+					<p
+						style="
+							margin: 0;
+							font-size: 0.95rem;
+							color: #f00;
+							margin-bottom: 1rem;
+						"
+					>
+						This email is invalid
+					</p>
 					<label for="message">Message</label>
 					<textarea
 						name="message"
@@ -96,9 +114,20 @@
 						rows="10"
 						placeholder="Textarea"
 					></textarea>
+					<input type="checkbox" name="terms" id="terms" />
+					<label for="terms" class="terms inline">
+						I agree to the <a href="#">terms and conditions</a>
+					</label>
+					<br />
+					<button type="submit" class="btn btn-primary">Submit</button>
+					<button type="submit" class="btn">Cancel</button>
 				</form>
 			</main>
 		</div>
-		<footer></footer>
+		<footer>
+			<div class="footer">
+				<p>&copy; 2021 - CS 2350 - All rights reserved</p>
+			</div>
+		</footer>
 	</body>
 </html>
