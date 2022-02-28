@@ -1,4 +1,4 @@
-# Assignment 3- Recreating a sample page
+# Assignment 3 - Recreating a sample page
 
 **Due: Feb 16, 2022 at 11:59pm**
 
