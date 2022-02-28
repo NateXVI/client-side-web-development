@@ -1,4 +1,4 @@
-# Public personal profile
+# Assignment 1 - Public personal profile
 
 **Due: Jan 28, 2022 at 11:59pm**
 
