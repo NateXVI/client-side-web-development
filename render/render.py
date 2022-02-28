@@ -7,11 +7,8 @@ args = sys.argv[1:]
 def convert_to_html(file_name):
     dir = path.dirname(__file__)
     base_html = open(path.join(dir, "render.html"), "r").read()
-    styles = open(path.join(dir, "./render.css"), "r").read()
     file_text = open(file_name, "r").read()
-
-    output = base_html.replace("/* styles */", styles)
-    output = output.replace("<!-- content -->", md(file_text))
+    output = base_html.replace("<!-- content -->", md(file_text))
     return output
 
 def main():
@@ -20,7 +17,6 @@ def main():
         return
     elif len(args) == 1:
         # render given md file to html
-        file_text = open(args[0], "r").read()
         file_name = path.splitext(args[0])[0]
 
         html_file = path.join(path.dirname(args[0]), file_name + ".html")
