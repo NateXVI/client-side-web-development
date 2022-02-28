@@ -1,4 +1,4 @@
-# Recreating a course syllabus
+# Assignment 2 - Recreating a course syllabus
 
 **Due: Feb 4, 2022 at 11:59pm**
 
