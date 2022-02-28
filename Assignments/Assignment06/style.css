@@ -35,6 +35,10 @@ header > div {
 	height: 100%;
 }
 
+.horizontal.links > li > a {
+	text-decoration: none;
+}
+
 .vertical.links,
 .vertical.links * {
 	display: flex;
