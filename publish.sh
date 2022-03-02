@@ -17,7 +17,7 @@ echo -e '\nrendering md files to html'
 find ~/public_html -name '*.md' -exec python3 render/render.py {} \;
 find ~/public_html -name '*.md' -exec rm {} \;
 
-echo 'moving test files to public_html'
+echo 'compiling test app and moving static files to public_html'
 cd test
 npm ci
 npm run build
