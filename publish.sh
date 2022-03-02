@@ -19,8 +19,8 @@ find ~/public_html -name '*.md' -exec rm {} \;
 
 echo 'compiling test app and moving static files to public_html'
 cd test
-npm ci
-npm run build
+npm ci > /dev/null
+npm run build > /dev/null
 mv out ~/public_html/test
 
 # rename things how I want them to be
