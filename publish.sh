@@ -19,6 +19,7 @@ find ~/public_html -name '*.md' -exec rm {} \;
 
 echo 'moving test files to public_html'
 cd test
+npm ci
 npm run build
 mv out ~/public_html/test
 
