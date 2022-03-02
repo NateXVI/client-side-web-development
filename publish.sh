@@ -17,6 +17,11 @@ echo -e '\nrendering md files to html'
 find ~/public_html -name '*.md' -exec python3 render/render.py {} \;
 find ~/public_html -name '*.md' -exec rm {} \;
 
+echo 'moving test files to public_html'
+cd test
+npm run build
+mv out ~/public_html/test
+
 # rename things how I want them to be
 echo -e '\nrenaming assignment 1'
 cd ~/public_html
