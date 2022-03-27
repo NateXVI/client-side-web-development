@@ -47,6 +47,7 @@ mv Assignment06 a-simple-form
 echo 'building assignment 7'
 cd Assignment07
 npm ci 2>> /dev/null
+export BASE_PATH=/~nd37549/a-canvas-2d-graphics-scene
 npm run deploy 2>> /dev/null
 mv dist/ ../a-canvas-2d-graphics-scene # move the build to the project path
 cd ../
