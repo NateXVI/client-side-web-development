@@ -12,7 +12,7 @@ const htmlPlugins = glob.sync('./src/**/*.html').map((file) => {
 	});
 });
 
-const baseUrl = process.env.BASE_URL || '/';
+const baseUrl = process.env.BASE_PATH || '/';
 
 module.exports = {
 	entry: {
