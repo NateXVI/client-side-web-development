@@ -50,6 +50,7 @@ npm ci 2>> /dev/null
 export BASE_PATH=/~nd37549/a-canvas-2d-graphics-scene
 npm run deploy 2>> /dev/null
 mv dist/ ../a-canvas-2d-graphics-scene # move the build to the project path
+mv instructions ../a-canvas-2d-graphics-scene # move the instructions to the project path
 cd ../
 rm -rf Assignment07
 
