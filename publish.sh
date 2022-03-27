@@ -44,6 +44,14 @@ mv Assignment05 page-layout-with-flexbox
 echo 'renaming assignment 6'
 mv Assignment06 a-simple-form
 
+echo 'building assignment 7'
+cd Assignment07
+npm ci > /dev/null
+npm run build > /dev/null
+mv dist/ ../a-canvas-2d-graphics-scene # move the build to the project path
+cd ../
+rm -rf Assignment07
+
 echo -e "\nDeployed to https://icarus.cs.weber.edu/~${USER}/"
 echo "            https://icarus.cs.weber.edu/~${USER}/profile/"
 echo "            https://icarus.cs.weber.edu/~${USER}/syllabus/"
@@ -51,3 +59,4 @@ echo "            https://icarus.cs.weber.edu/~${USER}/recreating-a-sample-page/
 echo "            https://icarus.cs.weber.edu/~${USER}/landing-page-layout/"
 echo "            https://icarus.cs.weber.edu/~${USER}/page-layout-with-flexbox/"
 echo "            https://icarus.cs.weber.edu/~${USER}/a-simple-form/"
+echo "            https://icarus.cs.weber.edu/~${USER}/a-canvas-2d-graphics-scene/"
