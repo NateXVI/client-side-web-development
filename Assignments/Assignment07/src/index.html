@@ -1,20 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>dot drawer</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+	</head>
 
-<head>
-  <meta charset="utf-8">
-  <title>Project Starter</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- 
-    Don't add stylesheets/main.css or javascripts/main.js manually. 
-    They will be added automatically by Webpack.
-  -->
-</head>
-
-<body>
-  <!-- Your HTML goes here -->
-  <h1>Welcome to CS 2350!</h1>
-
-</body>
+	<body>
+		<div class="main">
+			<center><h1>Dot Drawer</h1></center>
+			<canvas id="canvas" width="600" height="400">
+				<p>Your browser does not support the HTML5 canvas tag.</p>
+			</canvas>
+			<form>
+				<div class="form-group color-group">
+					<label for="bg-color" class="form-label">Background color: </label>
+					<input
+						type="color"
+						id="backgroundColor"
+						name="bg-color"
+						class="form-control form-control-color"
+						value="#ffffff"
+					/>
+					<label for="pen-color">Pen color: </label>
+					<input
+						type="color"
+						id="penColor"
+						name="pen-color"
+						class="form-control form-control-color"
+						value="#ff0000"
+					/>
+					<label for="pen-size">Pen size: </label>
+					<input
+						type="range"
+						id="penSize"
+						name="pen-size"
+						class="form-range"
+						min="1"
+						max="50"
+						value="10"
+					/>
+				</div>
+			</form>
+		</div>
+	</body>
 </html>
