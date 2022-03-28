@@ -1,2 +1,40 @@
 /* Your styles go here */
-@import "~bootstrap/dist/css/bootstrap.min.css";
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+html,
+body {
+	background-color: #eee;
+}
+
+.main {
+	width: 650px;
+	min-height: calc(100vh - 10px);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	margin: auto;
+	margin-top: 10px;
+	padding: 25px;
+	border-radius: 10px 10px 0 0;
+	background-color: white;
+}
+
+canvas {
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	margin-bottom: 20px;
+	user-select: none;
+}
+
+.color-group {
+	display: grid;
+	grid-template-columns: auto 1fr;
+	gap: 1rem;
+	align-items: center;
+}
+
+label {
+	font-weight: bold;
+}
+
+input[type='color'] {
+	display: inline-block;
+	width: 100%;
+}
